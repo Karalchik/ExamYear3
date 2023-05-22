@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamMain", "ExamMain\ExamMain.csproj", "{F86BECBF-477E-4FEC-B0EF-C119D2146AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamGame", "ExamGame\ExamGame.csproj", "{7A942570-7975-4457-BB3A-E72ED6B33B63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F86BECBF-477E-4FEC-B0EF-C119D2146AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86BECBF-477E-4FEC-B0EF-C119D2146AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86BECBF-477E-4FEC-B0EF-C119D2146AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86BECBF-477E-4FEC-B0EF-C119D2146AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A942570-7975-4457-BB3A-E72ED6B33B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A942570-7975-4457-BB3A-E72ED6B33B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A942570-7975-4457-BB3A-E72ED6B33B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A942570-7975-4457-BB3A-E72ED6B33B63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80F40591-DFE8-40F7-ACC1-F8D86A4ABD4C}
+	EndGlobalSection
+EndGlobal

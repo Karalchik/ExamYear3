@@ -1,0 +1,19 @@
+﻿<Window x:Class="ExamMain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamMain"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="LoadedMain" WindowStartupLocation="CenterScreen" Icon="icons\stats.png">
+    <StackPanel>
+        <ToolBar HorizontalAlignment="Center">
+            <Button Click="Register_Click" Content="Register" Width="140" FontSize="20" Foreground="Yellow"/>
+            <Button Click="ToAdmin_Click" Name="AdminBtn" Content="Admin Page" FontSize="20" Width="140" Foreground="Gold"/>
+            <Button Click="Refresh_Click" Content="Refresh" Width="140" FontSize="20" Foreground="DarkGoldenrod"/>
+            <Button Click="ToPlayers_Click" Content="Players Page" Width="140" FontSize="20" Foreground="MediumPurple"/>
+            <Button Click="LogIn_Clickc" Content="Log In" Width="140" FontSize="20" Foreground="Purple"/>
+        </ToolBar>
+        <Frame Name="Frame" Background="AliceBlue" Height="400" Content="{Binding Path=CurrentPage}" NavigationUIVisibility="Hidden" Opacity="{Binding Path=FrameOpacity}"/>
+    </StackPanel>
+</Window>

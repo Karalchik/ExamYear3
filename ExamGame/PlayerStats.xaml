@@ -1,0 +1,15 @@
+﻿<Window x:Class="ExamGame.PlayerStats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamGame"
+        mc:Ignorable="d"
+        Title="Stats" Height="200" Width="400" Loaded="LoadedNow" WindowStartupLocation="CenterScreen" Icon="imgs/stats.png">
+    <StackPanel Background="#FFE0E2C6">
+        <TextBlock Name="txtNick" TextAlignment="Center" Text="Nickname: "  Foreground="#FF0DA156" FontSize="24" MinWidth="150" Margin="5"/>
+        <TextBlock Name="txtEmail" TextAlignment="Center" Text="Email: "  Foreground="#FF0DA156" FontSize="24" MinWidth="150" Margin="5"/>
+        <TextBlock Name="txtMax" TextAlignment="Center" Text="Max Score: "  Foreground="#FF0DA156" FontSize="24" MinWidth="150" Margin="5"/>
+        <TextBlock Name="txtLast" TextAlignment="Center" Text="Last Score: "  Foreground="#FF0DA156" FontSize="24" MinWidth="150" Margin="5"/>
+    </StackPanel>
+</Window>

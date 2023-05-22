@@ -1,0 +1,28 @@
+﻿<Window x:Class="ExamGame.Reg_Log"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamGame"
+        mc:Ignorable="d"
+        Title="Log In" Height="275" Width="450" WindowStartupLocation="CenterScreen" Icon="imgs/log_reg.png">
+    <StackPanel Background="#FFE0E2C6">
+        <TextBlock Text="Log In Form" Height="30" Foreground="#FF120B97" FontSize="22" Width="150" Margin="0,10,0,10"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <TextBlock TextAlignment="Center" Text="Nickname: " Height="30" Foreground="#FF0DA156" FontSize="24" Width="150"/>
+            <TextBox TextChanged="txtNicknameChanged" Name="txtBoxNickname" Height="30" Foreground="#FF0DA156" FontSize="22" Width="250"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <TextBlock TextAlignment="Center" Text="Email: " Height="30" Foreground="#FF0DA156" FontSize="24" Width="150"/>
+            <TextBox TextChanged="txtEmailChanged" Name="txtBoxAddress" Height="30" Foreground="#FF0DA156" FontSize="22" Width="250"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <TextBlock TextAlignment="Center" Text="Password: " Height="30" Foreground="#FF0DA156" FontSize="24" Width="150"/>
+            <PasswordBox PasswordChanged="txtPasswordChanged" Name="txtBoxPassword" Height="30" Foreground="#FF0DA156" FontSize="22" Width="250"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button IsEnabled="False" Name="btnLogIn" Click="Login" Content="Log In" Foreground="#FF0DA156" FontSize="24" Width="150" Margin="10" Background="#FFFFD4D4"/>
+            <Button Name="btnCancel" Click="Cancel" Content="Cancel" Foreground="#FF0DA156" FontSize="24" Width="150" Margin="10" Background="#FFFFD4D4"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
